@@ -1,0 +1,18 @@
+$mdc-theme-background: #fcb8ab;
+$mdc-theme-primary: #fcb8ab;
+$mdc-theme-secondary: #feeae6;
+$mdc-theme-on-primary: #442b2d;
+$mdc-theme-on-secondary: #442b2d;
+
+@import '../node_modules/@material/card/mdc-card.scss';
+@import '../node_modules/@material/typography/mdc-typography.scss';
+@import '../node_modules/@material/theme/mdc-theme.scss';
+@import '../node_modules/@material/layout-grid/mdc-layout-grid.scss';
+@import '../node_modules/@material/icon-button/mdc-icon-button.scss';
+@import '../node_modules/@material/icon-button/mdc-icon-button.scss';
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.retro-box-card {
+	@include mdc-card-outline ($mdc-theme-background);
+}
